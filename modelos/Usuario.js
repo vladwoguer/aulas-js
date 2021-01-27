@@ -11,6 +11,10 @@ class Usuario {
     getPassword() {
         return this.password
     }
+    
+    setUsername(username) {
+        this.username = username
+    }
 }
 
 module.exports = Usuario
