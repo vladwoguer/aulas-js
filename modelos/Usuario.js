@@ -8,6 +8,10 @@ class Usuario {
         return this.username
     }
 
+    getPassword() {
+        return this.password
+    }
+    
     setUsername(username) {
         this.username = username
     }
