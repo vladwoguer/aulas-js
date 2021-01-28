@@ -24,3 +24,5 @@ class Usuario {
 }
 
 module.exports = Usuario
+let usuario = new Usuario('vlad',12345)
+console.log(usuario)
