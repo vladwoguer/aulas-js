@@ -12,15 +12,9 @@ class Usuario {
         return this.password
     }
 
-    setPassword(password){
-        this.password = password
-    }
-    
     setUsername(username) {
         this.username = username
     }
-
-
 }
 
 module.exports = Usuario
