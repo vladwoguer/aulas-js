@@ -15,6 +15,9 @@ class Usuario {
     setUsername(username) {
         this.username = username
     }
+    setPassword(password){
+        this.password = password
+    }
 }
 
 module.exports = Usuario
