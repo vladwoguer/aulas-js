@@ -5,4 +5,7 @@ class informacao {
     getDados(){
         return this.dados
     }
+    setDados(dados){
+        this.dados = dados
+    }
 }
