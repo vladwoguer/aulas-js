@@ -3,3 +3,4 @@ class informacao {
         this.dados = dados
     }
 }
+module.exports = informacao
