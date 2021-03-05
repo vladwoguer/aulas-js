@@ -9,7 +9,7 @@ class endereco {
     getRua (){
         return this.rua
     }
-    setRua (){
-        return this.rua = rua
+    setRua (rua){
+        this.rua = rua
     }
 }
