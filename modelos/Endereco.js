@@ -6,4 +6,10 @@ class endereco {
         this.bairro = bairro
         this.cidade = cidade
     }
+    getRua (){
+        return this.rua
+    }
+    setRua (rua){
+        this.rua = rua
+    }
 }
