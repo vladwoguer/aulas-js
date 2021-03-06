@@ -18,4 +18,10 @@ class endereco {
     setNumero (numero){
         this.numero = numero
     }
+    getBairro (){
+        return this.bairro
+    }
+    setBairro (bairro){
+        this.bairro = bairro
+    }
 }
