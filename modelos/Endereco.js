@@ -12,4 +12,10 @@ class endereco {
     setRua (rua){
         this.rua = rua
     }
+    getNumero (){
+        return this.numero
+    }
+    setNumero (numero){
+        this.numero = numero
+    }
 }
