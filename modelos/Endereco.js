@@ -24,4 +24,11 @@ class endereco {
     setBairro (bairro){
         this.bairro = bairro
     }
+    getCidade (){
+        return this.cidade
+    }
+    setCidade (cidade){
+        this.cidade = cidade
+    }
+
 }
